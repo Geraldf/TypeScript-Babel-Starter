@@ -1,8 +1,4 @@
-export class C {
-    private x = 10;
-    getX = () => this.x;
-    setX = (newVal: number) => { this.x = newVal; }
-}
+import Calendar from './Calendar';
+import CalendarControls from './CalendarControls';
 
-export let x = new C();
-export let y = { ...{ some: "value" } };
+export { Calendar, CalendarControls };
